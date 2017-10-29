@@ -1,0 +1,23 @@
+//
+//  Core-Framework.default.xcconfig
+//  LDMDeviceInteraction
+//
+//  Created by Lobanov Dmitry on 28.10.2017.
+//  Copyright © 2017 Lobanov Dmitry. All rights reserved.
+//
+// Packaging
+PRODUCT_BUNDLE_IDENTIFIER = org.opensource.$(PRODUCT_NAME);
+MODULEMAP_FILE = $(SOURCE_ROOT)/../Core/FrameworkSupplement/map.modulemap;
+MODULEMAP_PRIVATE_FILE = $(SOURCE_ROOT)/../Core/FrameworkSupplement/map.private.modulemap;
+INFOPLIST_FILE = $(PRODUCT_NAME)/Info.plist;
+
+// Search Paths
+// FRAMEWORK_SEARCH_PATHS = $(inherited)
+
+// Clang Warnings
+CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+WARNING_CFLAGS = -Wno-all -Wincomplete-umbrella -Wno-nullability-completeness;
+
+// Deployment
+STRIP_INSTALLED_PRODUCT = NO;
+IPHONEOS_DEPLOYMENT_TARGET = 9.3;

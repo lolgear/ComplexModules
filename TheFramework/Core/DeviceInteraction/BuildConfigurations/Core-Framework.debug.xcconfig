@@ -1,0 +1,8 @@
+//
+//  Core-Framework.debug.xcconfig
+//  LDMDeviceInteraction
+//
+//  Created by Lobanov Dmitry on 28.10.2017.
+//  Copyright © 2017 Lobanov Dmitry. All rights reserved.
+//
+#include "Core-Framework.default.xcconfig"

@@ -1,0 +1,6 @@
+explicit module LDMDeviceInteraction.Private {
+    header "LDMDeviceInteraction__Private.h"
+//    export *
+    header "LDMDeviceInteractionCommandsExecutor+Inspection.h"
+    header "LDMDeviceInteractionCommandsProcessor.h"
+}

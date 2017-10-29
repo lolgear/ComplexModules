@@ -1,0 +1,57 @@
+# Custom Resources Manager.
+ios_localization_manager.rb
+
+# Custom Frameworks Dependencies
+ReleaseFrameworks/
+IntermediateFrameworks/
+
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+
+# Custom for this project
+# Not Airkey workspace
+!Airkey.xcworkspace
+
+
+# Pods
+Pods/Pods.xcodeproj/xcuserdata/
+Pods/
+# Logs containers
+Logs
+
+# Fastlane
+# fastlane specific
+fastlane/report.xml
+SmartAirkey/fastlane/report.xml
+XsAnyware/fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+SmartAirkey/fastlane/Preview.html
+XsAnyware/fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots
+SmartAirkey/fastlane/screenshots
+XsAnyware/fastlane/screenshots
+
+# scan temporary files
+fastlane/test_output
+SmartAirkey/fastlane/test_output
+XsAnyware/fastlane/test_output
