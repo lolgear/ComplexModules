@@ -17,7 +17,7 @@
 		0A5BC6BB1FA4B5B6000BDAB4 /* ImportExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BC6BA1FA4B5B6000BDAB4 /* ImportExample.m */; };
 		0A5BC6C61FA4B96C000BDAB4 /* ImportExample__For__Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BC6C51FA4B96C000BDAB4 /* ImportExample__For__Private.m */; };
 		0A5BC6E11FA64C5A000BDAB4 /* ImportExample__For__SecurityKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BC6E01FA64C5A000BDAB4 /* ImportExample__For__SecurityKit.m */; };
-		0A5BC6E81FA658B5000BDAB4 /* LDMDeviceInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5BC6E71FA658B5000BDAB4 /* LDMDeviceInteraction.framework */; };
+		0A5BC6E91FA66034000BDAB4 /* LDMDeviceInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5BC6EA1FA66034000BDAB4 /* LDMDeviceInteraction.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		0A5BC6C51FA4B96C000BDAB4 /* ImportExample__For__Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportExample__For__Private.m; sourceTree = "<group>"; };
 		0A5BC6DF1FA64C5A000BDAB4 /* ImportExample__For__SecurityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportExample__For__SecurityKit.h; sourceTree = "<group>"; };
 		0A5BC6E01FA64C5A000BDAB4 /* ImportExample__For__SecurityKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportExample__For__SecurityKit.m; sourceTree = "<group>"; };
-		0A5BC6E71FA658B5000BDAB4 /* LDMDeviceInteraction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LDMDeviceInteraction.framework; path = ../Frameworks/LDMDeviceInteraction.framework; sourceTree = "<group>"; };
+		0A5BC6EA1FA66034000BDAB4 /* LDMDeviceInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LDMDeviceInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5BC6E81FA658B5000BDAB4 /* LDMDeviceInteraction.framework in Frameworks */,
+				0A5BC6E91FA66034000BDAB4 /* LDMDeviceInteraction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 		0A5BC6BC1FA4B5E0000BDAB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A5BC6E71FA658B5000BDAB4 /* LDMDeviceInteraction.framework */,
+				0A5BC6EA1FA66034000BDAB4 /* LDMDeviceInteraction.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
