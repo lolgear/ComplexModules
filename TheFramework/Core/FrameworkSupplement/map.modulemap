@@ -1,14 +1,18 @@
 framework module LDMDeviceInteraction {
     umbrella header "LDMDeviceInteraction.h"
+//    exclude LDMDeviceInteraction__Random
+//    exclude LDMDeviceInteractionRandomString
+    
     module Core {
         header "LDMDeviceInteraction__Core.h"
 //        export *
     }
-//    explicit framework module SecurityKit {
+    explicit framework module SecurityKit {
 //        umbrella header "LDMDeviceInteractionSecurityToolbox.h"
-//        export *
-//        module * { export * }
-//    }
+        umbrella header "SecurityKit.h"
+        export *
+        module * { export * }
+    }
     explicit module Random {
         header "LDMDeviceInteraction__Random.h"
         export *
