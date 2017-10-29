@@ -8,6 +8,6 @@
 
 #ifndef LDMDeviceInteractionSecurityToolbox_h
 #define LDMDeviceInteractionSecurityToolbox_h
-#import <LDMDeviceInteraction/LDMDeviceInteractionSecurityKit.h>
-#import <LDMDeviceInteraction/LDMDeviceInteractionSecurityKit+DigestSHA.h>
+#import <SecurityKit/LDMDeviceInteractionSecurityKit.h>
+#import <SecurityKit/LDMDeviceInteractionSecurityKit+DigestSHA.h>
 #endif /* LDMDeviceInteractionSecurityToolbox_h */
